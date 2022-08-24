@@ -47,6 +47,10 @@ td, th {
     cursor: pointer;
 }
 
+.cursor {
+    cursor: default;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -150,11 +154,60 @@ body {
 
 /*-------------- MAIN --------------*/
 
+.main-section {
+    background: #eee;
+}
+
+.main-container {
+    display: flex;
+}
+
+.top6-table {
+    background: #FF9A9A;
+}
+
 .top6-caption {
-    background-color: red;
+    background: #BA0B0B;
 }
 
 .top6 {
+    font-size: 24px;
+}
+
+.top6-thead {
+    background: #FF1919;
+}
+
+.base-table {
+    background: #746AF4;
+}
+
+.base-caption {
+    background: #0D0483;
+}
+
+.base-thead {
+    background: #2F22D3;
+}
+
+.base {
+    font-size: 24px;
+    color: white;
+}
+
+.sandbox-table {
+    background: #FFFF58;
+}
+
+.sandbox-caption {
+    background: #AFAF0B;
+}
+
+.sandbox-thead {
+    background: #FFFF00;
+}
+
+.sandbox {
     font-size: 24px;
 }
 
