@@ -1,0 +1,165 @@
+:root {
+    --primary-font: 'Nunito', sans-serif;
+    --logo-font: 'Aboreto', sans-serif;
+    --primary-bg-color: #FFFFFF;
+    --primary-text-color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+    margin: 3rem;
+    font-family: var(--primary-font);
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5rem 1rem;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.buttoncursor {
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+body {
+    font-family: var(--primary-font);
+    background: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+/*-------------- HEADER --------------*/
+
+.page-header{
+    background-color: violet;
+    padding: 24px 0;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ukraine-logo {
+    font-family: var(--logo-font);
+    color: blue;
+    font-size: 32px;
+}
+
+.aine-logo {
+    color: yellow;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.team-table, 
+.team-list,
+.telegram-link {
+    color: white;
+    font-size: 20px;
+}
+
+.team-table:hover,
+.team-table:focus,
+.team-list:hover,
+.team-list:focus,
+.telegram-link:hover,
+.telegram-link:focus,
+.current {
+    color:blue;
+}
+
+/*-------------- /HEADER --------------*/
+
+/*-------------- FOOTER --------------*/
+
+.page-footer {
+    background: violet;
+    padding: 24px 0;
+}
+
+.page-footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.glory-ukraine {
+    font-size: 32px;
+    color: blue;
+}
+
+/*-------------- /FOOTER --------------*/
+
+/*-------------- MAIN --------------*/
+
+.top6-caption {
+    background-color: red;
+}
+
+.top6 {
+    font-size: 24px;
+}
+
+/*-------------- /MAIN --------------*/
+
+/*-------------- PEOPLELIST --------------*/
+
+/*-------------- /PEOPLELIST --------------*/
