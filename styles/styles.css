@@ -215,4 +215,18 @@ body {
 
 /*-------------- PEOPLELIST --------------*/
 
+.heroes {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.list-section {
+    background: #888;
+}
+
+.player-trophy {
+    font-size: 20px;
+    color: gold;
+}
+
 /*-------------- /PEOPLELIST --------------*/
