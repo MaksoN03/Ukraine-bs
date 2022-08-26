@@ -147,7 +147,14 @@ body {
 
 .glory-ukraine {
     font-size: 32px;
+    line-height: 48px;
     color: white;
+}
+
+.uaflag {
+    height: 48px;
+    width: 48px;
+    margin-left: 10px;
 }
 
 /*-------------- /FOOTER --------------*/
@@ -188,7 +195,8 @@ body {
 
 .team2,
 .team3 {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     color: white;
     line-height: 30px;
 }
@@ -217,7 +225,8 @@ body {
 
 .team1,
 .team7 {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     color: white;
     line-height: 30px;
 }
@@ -256,7 +265,8 @@ body {
 .team6,
 .team8,
 .team10 {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     color: white;
     line-height: 30px;
 }
@@ -287,6 +297,11 @@ body {
     table {
         margin: 2rem;
     }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     
     .main-container{
         flex-direction: column;
@@ -307,7 +322,7 @@ body {
     .menu {
         flex-direction: column;
         row-gap: 10px;
-    } 
+    }
 }
 
 /*-------------- /SMARTPHONE --------------*/
