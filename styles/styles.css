@@ -88,7 +88,7 @@ body {
 /*-------------- HEADER --------------*/
 
 .page-header{
-    background-color: violet;
+    background-color: #236167;
     padding: 24px 0;
 }
 
@@ -100,12 +100,12 @@ body {
 
 .ukraine-logo {
     font-family: var(--logo-font);
-    color: blue;
+    color: #7886AB;
     font-size: 32px;
 }
 
 .aine-logo {
-    color: yellow;
+    color: #FEE3A9;
 }
 
 .menu {
@@ -128,7 +128,7 @@ body {
 .telegram-link:hover,
 .telegram-link:focus,
 .current {
-    color:blue;
+    color: #7886AB;
 }
 
 /*-------------- /HEADER --------------*/
@@ -136,7 +136,7 @@ body {
 /*-------------- FOOTER --------------*/
 
 .page-footer {
-    background: violet;
+    background: #236167;
     padding: 24px 0;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .glory-ukraine {
     font-size: 32px;
-    color: blue;
+    color: white;
 }
 
 /*-------------- /FOOTER --------------*/
@@ -155,60 +155,104 @@ body {
 /*-------------- MAIN --------------*/
 
 .main-section {
-    background: #eee;
+    background: #F0F4F4;
 }
 
 .main-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.top6-table {
-    background: #FF9A9A;
+.team2-table,
+.team3-table {
+    background: #FEE7D2;
 }
 
-.top6-caption {
-    background: #BA0B0B;
+.team2-caption,
+.team3-caption {
+    background: #542800;
 }
 
-.top6 {
-    font-size: 24px;
+.team2-th,
+.team3-th {
+    border: 1px solid #542800;
 }
 
-.top6-thead {
-    background: #FF1919;
+.team2-tr,
+.team3-tr {
+    background: #FFF9F3;
 }
 
-.base-table {
-    background: #746AF4;
-}
-
-.base-caption {
-    background: #0D0483;
-}
-
-.base-thead {
-    background: #2F22D3;
-}
-
-.base {
-    font-size: 24px;
+.team2,
+.team3 {
+    font-size: 20px;
     color: white;
+    line-height: 30px;
 }
 
-.sandbox-table {
-    background: #FFFF58;
+.team1-table,
+.team7-table {
+    background: #DBDFE9;
 }
 
-.sandbox-caption {
-    background: #AFAF0B;
+.team1-caption,
+.team7-caption {
+    background: #162755;
 }
 
-.sandbox-thead {
-    background: #FFFF00;
+.team1-th,
+.team7-th {
+    border: 1px solid #162755;
 }
 
-.sandbox {
-    font-size: 24px;
+.team1-tr,
+.team7-tr {
+    background: #FAFAF8;
+}
+
+.team1,
+.team7 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.team5-table,
+.team6-table,
+.team8-table,
+.team10-table {
+    background: #FFF2D5;
+}
+
+.team5-caption,
+.team6-caption,
+.team8-caption,
+.team10-caption {
+    background: #A98538;
+}
+
+.team5-th,
+.team6-th,
+.team8-th,
+.team10-th {
+    border: 1px solid #A98538;
+}
+
+.team5-tr,
+.team6-tr,
+.team8-tr,
+.team10-tr {
+    background: #FFFBF3;
+}
+
+.team5,
+.team6,
+.team8,
+.team10 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
 }
 
 /*-------------- /MAIN --------------*/
