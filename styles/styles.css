@@ -271,6 +271,46 @@ body {
     line-height: 30px;
 }
 
+.legend-table {
+    background: #FAFAF8;
+}
+
+.legend-caption {
+    background: #236167;
+}
+
+.legend {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    line-height: 30px;
+}
+
+.legend-th,
+.legend-td {
+    border: 1px solid #236167;
+}
+
+.legend-td {
+    background: #236167;
+    color: white;
+}
+
+.red {
+    background: #542800;
+    color: white;
+}
+
+.blue {
+    background: #162755;
+    color: white;
+}
+
+.yellow {
+    background: #A98538;
+    color: white;
+}
+
 /*-------------- /MAIN --------------*/
 
 /*-------------- PEOPLELIST --------------*/
@@ -298,6 +338,10 @@ body {
         margin: 2rem;
     }
 
+    th {
+        padding: 0.5rem 0.5rem;
+    }
+
     .section {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -310,6 +354,10 @@ body {
 
     .container{
         width:375px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .page-navigation{
@@ -322,6 +370,29 @@ body {
     .menu {
         flex-direction: column;
         row-gap: 10px;
+    }
+
+    .legend-table {
+        table-layout: fixed;
+        width: 350px;
+    }
+
+    .red {
+        background: #542800;
+        color: white;
+        font-size:14px;
+    }
+    
+    .blue {
+        background: #162755;
+        color: white;
+        font-size: 14px;
+        }
+    
+    .yellow {
+        background: #A98538;
+        color: white;
+        font-size: 14px;
     }
 }
 
