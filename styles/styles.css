@@ -167,6 +167,8 @@ body {
 .team2-table,
 .team3-table {
     background: #FEE7D2;
+    table-layout: fixed;
+    width: 165px;
 }
 
 .team2-caption,
@@ -194,6 +196,8 @@ body {
 .team1-table,
 .team7-table {
     background: #DBDFE9;
+    table-layout: fixed;
+    width: 165px;
 }
 
 .team1-caption,
@@ -223,6 +227,8 @@ body {
 .team8-table,
 .team10-table {
     background: #FFF2D5;
+    table-layout: fixed;
+    width: 165px;
 }
 
 .team5-caption,
@@ -278,6 +284,10 @@ body {
 /*-------------- SMARTPHONE --------------*/
 
 @media screen and (min-width:375px) and (max-width:415px){
+    table {
+        margin: 2rem;
+    }
+    
     .main-container{
         flex-direction: column;
         align-items: center;
