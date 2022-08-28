@@ -116,6 +116,7 @@ body {
 
 .team-table, 
 .team-list,
+.team-rules,
 .telegram-link {
     color: white;
     font-size: 20px;
@@ -125,6 +126,8 @@ body {
 .team-table:focus,
 .team-list:hover,
 .team-list:focus,
+.team-rules:hover,
+.team-rules:focus,
 .telegram-link:hover,
 .telegram-link:focus,
 .current {
@@ -231,39 +234,49 @@ body {
     line-height: 30px;
 }
 
+.team4-table,
 .team5-table,
 .team6-table,
 .team8-table,
+.team9-table,
 .team10-table {
     background: #FFF2D5;
     table-layout: fixed;
     width: 165px;
 }
 
+.team4-caption,
 .team5-caption,
 .team6-caption,
 .team8-caption,
+.team9-caption,
 .team10-caption {
     background: #A98538;
 }
 
+.team4-th,
 .team5-th,
 .team6-th,
 .team8-th,
+.team9-th,
 .team10-th {
     border: 1px solid #A98538;
 }
 
+.team4-tr,
 .team5-tr,
 .team6-tr,
 .team8-tr,
+.team9-tr,
 .team10-tr {
     background: #FFFBF3;
 }
 
+.team4,
 .team5,
 .team6,
 .team8,
+.team9,
 .team10 {
     font-size: 16px;
     font-weight: 600;
@@ -272,7 +285,9 @@ body {
 }
 
 .legend-table {
-    background: #FAFAF8;
+    background: #F3F7F7;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .legend-caption {
@@ -311,6 +326,10 @@ body {
     color: white;
 }
 
+.light-yellow {
+    background: #D4B169;
+}
+
 /*-------------- /MAIN --------------*/
 
 /*-------------- PEOPLELIST --------------*/
@@ -321,7 +340,7 @@ body {
 }
 
 .list-section {
-    background: #888;
+    background: #9EBABE;
 }
 
 .player-trophy {
@@ -330,6 +349,29 @@ body {
 }
 
 /*-------------- /PEOPLELIST --------------*/
+
+/*-------------- RULES --------------*/
+
+.rules-section {
+    background: #DAE5E6;
+}
+
+.rules-header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.rules-text {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.rules-text:not(:last-child){
+    margin-bottom: 20px;
+}
+
+/*-------------- /RULES --------------*/
 
 /*-------------- SMARTPHONE --------------*/
 
@@ -343,6 +385,8 @@ body {
     }
 
     .section {
+        display: flex;
+        justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -358,6 +402,16 @@ body {
         padding-right: 0;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-footer {
+        display: flex;
+        justify-content: center;
     }
     
     .page-navigation{
@@ -375,6 +429,8 @@ body {
     .legend-table {
         table-layout: fixed;
         width: 350px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .red {
@@ -393,6 +449,10 @@ body {
         background: #A98538;
         color: white;
         font-size: 14px;
+    }
+
+    .rules-text {
+        margin: 0;
     }
 }
 
