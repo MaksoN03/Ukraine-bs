@@ -114,10 +114,17 @@ body {
     column-gap: 80px;
 }
 
+.link-container{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
 .team-table, 
 .team-list,
 .team-rules,
-.telegram-link {
+.telegram-link,
+.discord-link {
     color: white;
     font-size: 20px;
 }
@@ -130,6 +137,8 @@ body {
 .team-rules:focus,
 .telegram-link:hover,
 .telegram-link:focus,
+.discord-link:hover,
+.discord-link:focus,
 .current {
     color: #7886AB;
 }
