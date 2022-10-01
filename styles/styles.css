@@ -184,58 +184,33 @@ body {
 }
 
 .team2-table,
-.team3-table {
+.team3-table,
+.team7-table {
     background: #FEE7D2;
     table-layout: fixed;
     width: 165px;
 }
 
 .team2-caption,
-.team3-caption {
+.team3-caption,
+.team7-caption {
     background: #542800;
 }
 
 .team2-th,
-.team3-th {
+.team3-th,
+.team7-th {
     border: 1px solid #542800;
 }
 
 .team2-tr,
-.team3-tr {
+.team3-tr,
+.team7-tr {
     background: #FFF9F3;
 }
 
 .team2,
-.team3 {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    line-height: 30px;
-}
-
-.team1-table,
-.team7-table {
-    background: #DBDFE9;
-    table-layout: fixed;
-    width: 165px;
-}
-
-.team1-caption,
-.team7-caption {
-    background: #162755;
-}
-
-.team1-th,
-.team7-th {
-    border: 1px solid #162755;
-}
-
-.team1-tr,
-.team7-tr {
-    background: #FAFAF8;
-}
-
-.team1,
+.team3,
 .team7 {
     font-size: 16px;
     font-weight: 600;
@@ -243,50 +218,75 @@ body {
     line-height: 30px;
 }
 
-.team4-table,
+.team1-table,
 .team5-table,
-.team6-table,
-.team8-table,
 .team9-table,
 .team10-table {
+    background: #DBDFE9;
+    table-layout: fixed;
+    width: 165px;
+}
+
+.team1-caption,
+.team5-caption,
+.team9-caption,
+.team10-caption {
+    background: #162755;
+}
+
+.team1-th,
+.team5-th,
+.team9-th,
+.team10-th {
+    border: 1px solid #162755;
+}
+
+.team1-tr,
+.team5-tr,
+.team9-tr,
+.team10-tr {
+    background: #FAFAF8;
+}
+
+.team1,
+.team5,
+.team9,
+.team10 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    line-height: 30px;
+}
+
+.team4-table,
+.team6-table,
+.team8-table {
     background: #FFF2D5;
     table-layout: fixed;
     width: 165px;
 }
 
 .team4-caption,
-.team5-caption,
 .team6-caption,
-.team8-caption,
-.team9-caption,
-.team10-caption {
+.team8-caption {
     background: #A98538;
 }
 
 .team4-th,
-.team5-th,
 .team6-th,
-.team8-th,
-.team9-th,
-.team10-th {
+.team8-th {
     border: 1px solid #A98538;
 }
 
 .team4-tr,
-.team5-tr,
 .team6-tr,
-.team8-tr,
-.team9-tr,
-.team10-tr {
+.team8-tr {
     background: #FFFBF3;
 }
 
 .team4,
-.team5,
 .team6,
-.team8,
-.team9,
-.team10 {
+.team8 {
     font-size: 16px;
     font-weight: 600;
     color: white;
