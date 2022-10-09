@@ -185,7 +185,8 @@ body {
 
 .team2-table,
 .team3-table,
-.team7-table {
+.team7-table,
+.team1-table {
     background: #FEE7D2;
     table-layout: fixed;
     width: 165px;
@@ -193,32 +194,35 @@ body {
 
 .team2-caption,
 .team3-caption,
-.team7-caption {
+.team7-caption,
+.team1-caption {
     background: #542800;
 }
 
 .team2-th,
 .team3-th,
-.team7-th {
+.team7-th,
+.team1-th {
     border: 1px solid #542800;
 }
 
 .team2-tr,
 .team3-tr,
-.team7-tr {
+.team7-tr,
+.team1-tr {
     background: #FFF9F3;
 }
 
 .team2,
 .team3,
-.team7 {
+.team7,
+.team1 {
     font-size: 16px;
     font-weight: 600;
     color: white;
     line-height: 30px;
 }
 
-.team1-table,
 .team5-table,
 .team9-table,
 .team10-table {
@@ -227,28 +231,24 @@ body {
     width: 165px;
 }
 
-.team1-caption,
 .team5-caption,
 .team9-caption,
 .team10-caption {
     background: #162755;
 }
 
-.team1-th,
 .team5-th,
 .team9-th,
 .team10-th {
     border: 1px solid #162755;
 }
 
-.team1-tr,
 .team5-tr,
 .team9-tr,
 .team10-tr {
     background: #FAFAF8;
 }
 
-.team1,
 .team5,
 .team9,
 .team10 {
